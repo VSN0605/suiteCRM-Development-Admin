@@ -25,7 +25,6 @@ class GlobalAfterSaveHook
             $recordId = $bean->id;
 
             $logMessage = "Record created in module " . $moduleName . " by user " . $userName . " — Record ID: " . $recordId;
-
             $GLOBALS['log']->fatal($logMessage);
         }
 
