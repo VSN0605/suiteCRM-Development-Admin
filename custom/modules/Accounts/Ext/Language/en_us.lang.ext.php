@@ -1,0 +1,23 @@
+<?php
+// WARNING: The contents of this file are auto-generated
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_ACCOUNTS_AM_PROJECTTEMPLATES_1_FROM_AM_PROJECTTEMPLATES_TITLE'] = 'Projects - Templates';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_ACCOUNTS_AM_PROJECTTEMPLATES_1_FROM_AM_PROJECTTEMPLATES_TITLE'] = 'Projects - Templates';
+$mod_strings['LBL_VEN1_VENDORS_ACCOUNTS_1_FROM_VEN1_VENDORS_TITLE'] = 'Vendors';
+$mod_strings['LBL_ACCOUNTS_PROJECT_1_FROM_PROJECT_TITLE'] = 'Projects';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_ACCOUNTS_AM_PROJECTTEMPLATES_1_FROM_AM_PROJECTTEMPLATES_TITLE'] = 'Projects - Templates';
+$mod_strings['LBL_VEN1_VENDORS_ACCOUNTS_1_FROM_VEN1_VENDORS_TITLE'] = 'Vendors';
+
+
+// created: 2025-11-14 09:28:10
+$mod_strings['LBL_CUSTOMER'] = 'Customer';
+$mod_strings['LBL_GST_NUMBER'] = 'GST Number';
+
