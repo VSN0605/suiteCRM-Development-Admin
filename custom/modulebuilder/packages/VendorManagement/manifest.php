@@ -61,9 +61,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'VendorManagement',
-  'published_date' => '2025-11-11 12:27:36',
+  'published_date' => '2025-11-17 12:52:39',
   'type' => 'module',
-  'version' => 1762864056,
+  'version' => 1763383959,
   'remove_tables' => 'prompt',
 );
 
