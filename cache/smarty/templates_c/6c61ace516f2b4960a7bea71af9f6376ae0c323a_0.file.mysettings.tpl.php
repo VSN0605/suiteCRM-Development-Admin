@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-17 05:10:12
+/* Smarty version 4.5.5, created on 2025-11-18 06:23:47
   from 'C:\wamp64\www\crm_folder\testingCRM\custom\modules\Contacts\tpls\mysettings.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_691aae342298c9_23624706',
+  'unifunc' => 'content_691c10f3bdad96_34014395',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_691aae342298c9_23624706 (Smarty_Internal_Template $_smarty_tpl) {
+function content_691c10f3bdad96_34014395 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <form id="mysettings" action="index.php?module=Contacts&action=mysettings" name="mysettings" method="post">
   <label for="username">Username:</label><br>

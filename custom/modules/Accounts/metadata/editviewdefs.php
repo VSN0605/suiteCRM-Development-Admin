@@ -69,6 +69,11 @@ array (
             'name' => 'phone_office',
             'label' => 'LBL_PHONE_OFFICE',
           ),
+          3 => 
+          array (
+            'name' => 'gst_number',
+            'label' => 'LBL_GST_NUMBER',
+          ),
         ),
         1 => 
         array (

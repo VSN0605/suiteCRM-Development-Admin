@@ -17,7 +17,7 @@ class beforeSaveHook
         }
 
     }
-
+                                             
     // Action performed after deleting a record in Accounts
     function afterDeleteMethod($bean, $event, $arguments)
     {

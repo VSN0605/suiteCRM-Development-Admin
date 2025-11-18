@@ -185,6 +185,41 @@
 
 </div>
 
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item" data-field="gst_number">
+
+
+<div class="col-xs-12 col-sm-4 label col-2-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_GST_NUMBER' module='Accounts'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="gst_number" >
+
+{if !$fields.gst_number.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.gst_number.value) <= 0}
+{assign var="value" value=$fields.gst_number.default_value }
+{else}
+{assign var="value" value=$fields.gst_number.value }
+{/if} 
+<span class="sugar_field" id="{$fields.gst_number.name}">{$fields.gst_number.value}</span>
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
 </div>
 
 

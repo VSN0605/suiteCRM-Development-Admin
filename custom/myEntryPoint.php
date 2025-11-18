@@ -9,4 +9,4 @@ $username = $current_user->user_name;
 
 echo "Hello " . $username . ", welcome to SuiteCRM Developer Test!";
 
-// http://localhost/crm_folder/testingCRM/index.php?entryPoint=myCustomEntryPoint
+// http://localhost/crm_folder/testingCRM/index.php?entryPoint=myCustomEntryPoint 

@@ -3,3 +3,7 @@
     background-color: aqua !important;
     border: 1px solid black !important;
 }
+
+.inlineEdit {
+    margin-top: 2px !important;
+}

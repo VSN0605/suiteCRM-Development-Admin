@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-14 12:30:28
+/* Smarty version 4.5.5, created on 2025-11-18 05:36:57
   from 'C:\wamp64\www\crm_folder\testingCRM\themes\SuiteP\include\SearchForm\tpls\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_691720e4b84344_09762041',
+  'unifunc' => 'content_691c05f97f76e4_99923041',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_691720e4b84344_09762041 (Smarty_Internal_Template $_smarty_tpl) {
+function content_691c05f97f76e4_99923041 (Smarty_Internal_Template $_smarty_tpl) {
 ?>{*
 /**
  *

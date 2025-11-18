@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-17 12:58:15
+/* Smarty version 4.5.5, created on 2025-11-18 05:29:37
   from 'C:\wamp64\www\crm_folder\testingCRM\cache\themes\SuiteP\modules\Accounts\DetailView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_691b1be76b7c21_67539185',
+  'unifunc' => 'content_691c04417f5b30_88642614',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bef3320f77dd389832198d268842196948bb136b' => 
     array (
       0 => 'C:\\wamp64\\www\\crm_folder\\testingCRM\\cache\\themes\\SuiteP\\modules\\Accounts\\DetailView.tpl',
-      1 => 1763384294,
+      1 => 1763443777,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_691b1be76b7c21_67539185 (Smarty_Internal_Template $_smarty_tpl) {
+function content_691c04417f5b30_88642614 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.sugar_include.php','function'=>'smarty_function_sugar_include',),1=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.sugar_translate.php','function'=>'smarty_function_sugar_translate',),2=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\modifier.strip_semicolon.php','function'=>'smarty_modifier_strip_semicolon',),3=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.counter.php','function'=>'smarty_function_counter',),4=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.sugar_phone.php','function'=>'smarty_function_sugar_phone',),5=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\modifier.to_url.php','function'=>'smarty_modifier_to_url',),6=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\modifier.escape.php','function'=>'smarty_modifier_escape',),7=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.sugar_ajax_url.php','function'=>'smarty_function_sugar_ajax_url',),));
 ?>
 
@@ -276,6 +276,47 @@ echo smarty_function_sugar_phone(array('value'=>$_smarty_tpl->tpl_vars['phone_va
 
 <?php }
 }?>
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item" data-field="gst_number">
+
+
+<div class="col-xs-12 col-sm-4 label col-2-label">
+
+
+<?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "label", "label", null);
+echo smarty_function_sugar_translate(array('label'=>'LBL_GST_NUMBER','module'=>'Accounts'),$_smarty_tpl);
+$_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);
+echo smarty_modifier_strip_semicolon($_smarty_tpl->tpl_vars['label']->value);?>
+:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="gst_number" >
+
+<?php if (!$_smarty_tpl->tpl_vars['fields']->value['gst_number']['hidden']) {
+echo smarty_function_counter(array('name'=>"panelFieldCount",'print'=>false),$_smarty_tpl);?>
+
+
+<?php if (strlen($_smarty_tpl->tpl_vars['fields']->value['gst_number']['value']) <= 0) {
+$_smarty_tpl->_assignInScope('value', $_smarty_tpl->tpl_vars['fields']->value['gst_number']['default_value']);
+} else {
+$_smarty_tpl->_assignInScope('value', $_smarty_tpl->tpl_vars['fields']->value['gst_number']['value']);
+}?> 
+<span class="sugar_field" id="<?php echo $_smarty_tpl->tpl_vars['fields']->value['gst_number']['name'];?>
+"><?php echo $_smarty_tpl->tpl_vars['fields']->value['gst_number']['value'];?>
+</span>
+<?php }?>
 
 <div class="inlineEditIcon col-xs-hidden">
 <span class="suitepicon suitepicon-action-edit"></span>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-14 12:30:34
+/* Smarty version 4.5.5, created on 2025-11-18 05:37:02
   from 'C:\wamp64\www\crm_folder\testingCRM\include\ListView\ListViewButtons.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_691720ea378010_55106146',
+  'unifunc' => 'content_691c05fe74c5d3_53707430',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_691720ea378010_55106146 (Smarty_Internal_Template $_smarty_tpl) {
+function content_691c05fe74c5d3_53707430 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.counter.php','function'=>'smarty_function_counter',),));
 if ((isset($_smarty_tpl->tpl_vars['form']->value['buttons']))) {?>
 <ul class="list-view-action-buttons">

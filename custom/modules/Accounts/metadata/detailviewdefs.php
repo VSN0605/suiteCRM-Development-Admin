@@ -96,6 +96,12 @@ array (
             'comment' => 'The office phone number',
             'label' => 'LBL_PHONE_OFFICE',
           ),
+          3 => 
+          array (
+            'name' => 'gst_number',
+            'comment' => 'GST number of the company',
+            'label' => 'LBL_GST_NUMBER',
+          ), 
         ),
         1 => 
         array (

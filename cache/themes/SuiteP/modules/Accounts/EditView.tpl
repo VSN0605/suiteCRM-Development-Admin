@@ -148,6 +148,36 @@ maxlength='150'        value='{$value}' title=''      >
 <!-- [/hide] -->
 </div>
 <div class="clear"></div>
+
+
+<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="gst_number">
+
+
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_GST_NUMBER">
+
+{minify}
+{capture name="label" assign="label"}{sugar_translate label='LBL_GST_NUMBER' module='Accounts'}{/capture}
+{$label|strip_semicolon}:
+
+{/minify}
+</div>
+
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="gst_number"  >
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.gst_number.value) <= 0}
+{assign var="value" value=$fields.gst_number.default_value }
+{else}
+{assign var="value" value=$fields.gst_number.value }
+{/if}
+<input type='text' name='{$fields.gst_number.name}'
+id='{$fields.gst_number.name}' size='30'
+value='{$value}' title=''      >
+</div>
+
+<!-- [/hide] -->
+</div>
+<div class="clear"></div>
 <div class="clear"></div>
 
 

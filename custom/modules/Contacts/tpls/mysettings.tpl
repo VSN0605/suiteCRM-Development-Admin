@@ -8,9 +8,9 @@
 
   <label for="email">Email:</label><br>
   <input type="email" id="email" name="email" value="{{$email}}"><br><br>
-
+                   
   <label for="message">Message:</label><br>
   <textarea id="message" name="message" rows="4" cols="50">{{$message}}</textarea><br><br>
-
+                   
   <input type="submit" id='submitbutton' name='submitbutton' value="Submit">
 </form>

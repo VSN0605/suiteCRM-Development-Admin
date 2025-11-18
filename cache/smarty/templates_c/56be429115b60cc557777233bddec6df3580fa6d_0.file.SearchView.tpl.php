@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-17 04:48:27
+/* Smarty version 4.5.5, created on 2025-11-18 06:21:37
   from 'C:\wamp64\www\crm_folder\testingCRM\include\SugarFields\Fields\Enum\SearchView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_691aa91bb24b80_52578020',
+  'unifunc' => 'content_691c107192dba5_11857252',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_691aa91bb24b80_52578020 (Smarty_Internal_Template $_smarty_tpl) {
+function content_691c107192dba5_11857252 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.sugarvar.php','function'=>'smarty_function_sugarvar',),));
 ?>
 {*

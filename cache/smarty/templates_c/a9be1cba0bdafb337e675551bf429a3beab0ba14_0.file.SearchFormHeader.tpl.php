@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-17 04:48:29
+/* Smarty version 4.5.5, created on 2025-11-18 06:21:38
   from 'C:\wamp64\www\crm_folder\testingCRM\cache\themes\SuiteP\modules\Leads\SearchFormHeader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_691aa91dced134_99661960',
+  'unifunc' => 'content_691c1072be5a48_59061801',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a9be1cba0bdafb337e675551bf429a3beab0ba14' => 
     array (
       0 => 'C:\\wamp64\\www\\crm_folder\\testingCRM\\cache\\themes\\SuiteP\\modules\\Leads\\SearchFormHeader.tpl',
-      1 => 1763354909,
+      1 => 1763446898,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:include/SearchForm/tpls/headerPopup.tpl' => 1,
   ),
 ),false)) {
-function content_691aa91dced134_99661960 (Smarty_Internal_Template $_smarty_tpl) {
+function content_691c1072be5a48_59061801 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.sugar_getjspath.php','function'=>'smarty_function_sugar_getjspath',),));
 ?>
 

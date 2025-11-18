@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-17 05:10:03
+/* Smarty version 4.5.5, created on 2025-11-18 05:29:42
   from 'C:\wamp64\www\crm_folder\testingCRM\modules\AOP_Case_Updates\tpl\caseUpdateForm.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_691aae2b3e02f8_83189215',
+  'unifunc' => 'content_691c0446871fa8_89621814',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_691aae2b3e02f8_83189215 (Smarty_Internal_Template $_smarty_tpl) {
+function content_691c0446871fa8_89621814 (Smarty_Internal_Template $_smarty_tpl) {
 ?><button id="addFileButton" class="button primary" type="button"><?php echo $_smarty_tpl->tpl_vars['MOD']->value['LBL_ADD_CASE_FILE'];?>
 </button>
 

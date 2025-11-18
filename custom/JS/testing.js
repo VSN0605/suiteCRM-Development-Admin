@@ -6,7 +6,7 @@ function testfunction() {
         window.location.href = "https://suitecrm.com/demo/";
     }
 }
-
+                              
 // function for contact module in detail view to redirect on custom view
 function customview() {
     const userConfirmed = confirm('Are you sure, you want to redirect on custom view page?')

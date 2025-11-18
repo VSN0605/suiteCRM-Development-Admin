@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-17 12:58:59
+/* Smarty version 4.5.5, created on 2025-11-18 05:37:19
   from 'C:\wamp64\www\crm_folder\testingCRM\cache\themes\SuiteP\modules\Accounts\EditView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_691b1c131bd1f3_24490926',
+  'unifunc' => 'content_691c060fe23f90_14308567',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1d335f3662f30a4344a59a0142fdc726ada9446c' => 
     array (
       0 => 'C:\\wamp64\\www\\crm_folder\\testingCRM\\cache\\themes\\SuiteP\\modules\\Accounts\\EditView.tpl',
-      1 => 1763384338,
+      1 => 1763444239,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_691b1c131bd1f3_24490926 (Smarty_Internal_Template $_smarty_tpl) {
+function content_691c060fe23f90_14308567 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\modifier.escape.php','function'=>'smarty_modifier_escape',),1=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.sugar_include.php','function'=>'smarty_function_sugar_include',),2=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.sugar_translate.php','function'=>'smarty_function_sugar_translate',),3=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\block.minify.php','function'=>'smarty_block_minify',),4=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\modifier.strip_semicolon.php','function'=>'smarty_modifier_strip_semicolon',),5=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.counter.php','function'=>'smarty_function_counter',),6=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.sugar_getjspath.php','function'=>'smarty_function_sugar_getjspath',),7=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.html_options.php','function'=>'smarty_function_html_options',),));
 ?>
 
@@ -257,6 +257,50 @@ $_smarty_tpl->_assignInScope('value', $_smarty_tpl->tpl_vars['fields']->value['p
 ' id='<?php echo $_smarty_tpl->tpl_vars['fields']->value['phone_office']['name'];?>
 ' size='30' maxlength='100' value='<?php echo $_smarty_tpl->tpl_vars['value']->value;?>
 ' title='' tabindex='0'	  class="phone" >
+</div>
+
+<!-- [/hide] -->
+</div>
+<div class="clear"></div>
+
+
+<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="gst_number">
+
+
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_GST_NUMBER">
+
+<?php $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('minify', array());
+$_block_repeat=true;
+echo smarty_block_minify(array(), null, $_smarty_tpl, $_block_repeat);
+while ($_block_repeat) {
+ob_start();
+$_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "label", "label", null);
+echo smarty_function_sugar_translate(array('label'=>'LBL_GST_NUMBER','module'=>'Accounts'),$_smarty_tpl);
+$_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);
+echo smarty_modifier_strip_semicolon($_smarty_tpl->tpl_vars['label']->value);?>
+:
+
+<?php $_block_repeat=false;
+echo smarty_block_minify(array(), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+}
+array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
+</div>
+
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="gst_number"  >
+<?php echo smarty_function_counter(array('name'=>"panelFieldCount",'print'=>false),$_smarty_tpl);?>
+
+
+<?php if (strlen($_smarty_tpl->tpl_vars['fields']->value['gst_number']['value']) <= 0) {
+$_smarty_tpl->_assignInScope('value', $_smarty_tpl->tpl_vars['fields']->value['gst_number']['default_value']);
+} else {
+$_smarty_tpl->_assignInScope('value', $_smarty_tpl->tpl_vars['fields']->value['gst_number']['value']);
+}?>
+<input type='text' name='<?php echo $_smarty_tpl->tpl_vars['fields']->value['gst_number']['name'];?>
+'
+id='<?php echo $_smarty_tpl->tpl_vars['fields']->value['gst_number']['name'];?>
+' size='30'
+value='<?php echo $_smarty_tpl->tpl_vars['value']->value;?>
+' title=''      >
 </div>
 
 <!-- [/hide] -->

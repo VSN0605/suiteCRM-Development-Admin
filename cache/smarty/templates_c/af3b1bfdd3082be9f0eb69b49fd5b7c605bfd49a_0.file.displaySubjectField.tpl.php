@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-17 04:49:21
+/* Smarty version 4.5.5, created on 2025-11-18 05:29:41
   from 'C:\wamp64\www\crm_folder\testingCRM\modules\Emails\templates\displaySubjectField.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_691aa9517b19c7_31922597',
+  'unifunc' => 'content_691c0445c7ae26_89438234',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_691aa9517b19c7_31922597 (Smarty_Internal_Template $_smarty_tpl) {
+function content_691c0445c7ae26_89438234 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="email-subject">
     <?php if ($_smarty_tpl->tpl_vars['bean']->value) {?>
                 <?php if ($_smarty_tpl->tpl_vars['bean']->value['name'] == '') {?>

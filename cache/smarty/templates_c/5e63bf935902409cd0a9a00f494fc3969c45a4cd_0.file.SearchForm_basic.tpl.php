@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-17 05:09:29
+/* Smarty version 4.5.5, created on 2025-11-18 06:23:32
   from 'C:\wamp64\www\crm_folder\testingCRM\cache\themes\SuiteP\modules\Contacts\SearchForm_basic.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_691aae0913bfd1_00830490',
+  'unifunc' => 'content_691c10e48bc701_25602009',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5e63bf935902409cd0a9a00f494fc3969c45a4cd' => 
     array (
       0 => 'C:\\wamp64\\www\\crm_folder\\testingCRM\\cache\\themes\\SuiteP\\modules\\Contacts\\SearchForm_basic.tpl',
-      1 => 1763356168,
+      1 => 1763447012,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_691aae0913bfd1_00830490 (Smarty_Internal_Template $_smarty_tpl) {
+function content_691c10e48bc701_25602009 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.counter.php','function'=>'smarty_function_counter',),1=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.math.php','function'=>'smarty_function_math',),2=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.sugar_translate.php','function'=>'smarty_function_sugar_translate',),3=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.sugar_getimagepath.php','function'=>'smarty_function_sugar_getimagepath',),));
 ?>
 

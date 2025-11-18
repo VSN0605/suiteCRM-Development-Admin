@@ -10,7 +10,7 @@ class GlobalAfterSaveHook
     {
         global $current_user;
 
-        // Run only when record is created (not just updated)
+        // Run only when record is created 
         // if (!empty($arguments['isUpdate']) && $arguments['isUpdate'] == true) {
         //     return; // Skip updates
         // }
@@ -30,5 +30,5 @@ class GlobalAfterSaveHook
 
     }
 }
-
+                                
 // custom\LogicHooks\GlobalAfterSaveHook.php

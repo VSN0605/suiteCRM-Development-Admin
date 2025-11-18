@@ -884,6 +884,7 @@
       'name' => 'gst_number',
       'type' => 'varchar',
       'side' => 'right',
+      'class' => 'gst_number',
       'vname' => 'LBL_GST_NUMBER',
     ),
     'ven1_vendors_accounts_1' => 

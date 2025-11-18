@@ -10,5 +10,4 @@ $hook_array['after_save'][] = array(
     'GlobalAfterSaveHook', // class name
     'afterSaveMethod' // function/method  name
 );
-
-// custom\Extension\application\Ext\LogicHooks\custom_logic_hook.php
+                                        

@@ -6,4 +6,4 @@ $hook_array['after_login'][] = array(
     'custom/modules/Users/UserLoginHook.php', // file path
     'afterLoginHook', // class name
     'afterLoginMethod' // function/method  name
-);
+);                              

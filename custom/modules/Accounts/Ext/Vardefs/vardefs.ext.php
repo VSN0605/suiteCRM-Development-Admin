@@ -33,6 +33,7 @@ $dictionary["Account"]["fields"]["accounts_project_1"] = array (
         'name' => 'gst_number',
         'type' => 'varchar',
         'side' => 'right',
+        'class' => 'gst_number',
         'vname' => 'LBL_GST_NUMBER',
     );
 

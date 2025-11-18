@@ -32,7 +32,7 @@ array(
                 'name' => 'Manage Subscriptions',
               ),
             ),
-          ),
+          ),                 
           'AOS_GENLET' =>
           array(
             'customCode' => '<input type="button" class="button" onClick="showPopup();" value="{$APP.LBL_PRINT_AS_PDF}">',

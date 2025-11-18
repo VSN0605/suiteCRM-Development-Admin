@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-17 04:48:27
+/* Smarty version 4.5.5, created on 2025-11-18 06:21:37
   from 'C:\wamp64\www\crm_folder\testingCRM\themes\SuiteP\include\SearchForm\tpls\SearchFormGenericAdvanced.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_691aa91b5c57d7_65556433',
+  'unifunc' => 'content_691c1071619955_98839966',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_691aa91b5c57d7_65556433 (Smarty_Internal_Template $_smarty_tpl) {
+function content_691c1071619955_98839966 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.math.php','function'=>'smarty_function_math',),1=>array('file'=>'C:\\wamp64\\www\\crm_folder\\testingCRM\\include\\Smarty\\plugins\\function.sugar_field.php','function'=>'smarty_function_sugar_field',),));
 ?>
 {*
